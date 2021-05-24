@@ -28,7 +28,7 @@ public class Tab3 extends Fragment {
         View v = inflater.inflate(R.layout.tab3, container, false);
         mWebView = (WebView) v.findViewById(R.id.webViewT3);
         progressBar = (ProgressBar) v.findViewById(R.id.progressBar);
-        mWebView.loadUrl("https://facebook.com/uzando");
+        mWebView.loadUrl("https://facebook.com/seentechnologies");
 
         // Enable Javascript
         WebSettings webSettings = mWebView.getSettings();
