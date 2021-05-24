@@ -29,7 +29,7 @@ public class Tab4 extends Fragment {
         View v = inflater.inflate(R.layout.tab4, container, false);
         mWebView = (WebView) v.findViewById(R.id.webViewT4);
         progressBar = (ProgressBar) v.findViewById(R.id.progressBar);
-        mWebView.loadUrl("https://uzando.com/blog");
+        mWebView.loadUrl("https://odhiamboatieno/news");
         // Enable Javascript
         WebSettings webSettings = mWebView.getSettings();
         webSettings.setJavaScriptEnabled(true);
