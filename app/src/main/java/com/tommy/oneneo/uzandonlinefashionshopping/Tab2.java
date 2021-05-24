@@ -28,7 +28,7 @@ public class Tab2 extends Fragment {
         View v = inflater.inflate(R.layout.tab2, container, false);
         mWebView = (WebView) v.findViewById(R.id.webViewT2);
         progressBar = (ProgressBar) v.findViewById(R.id.progressBar);
-        mWebView.loadUrl("https://twitter.com/bagscentre");
+        mWebView.loadUrl("https://twitter.com/seentechs");
 
         // Enable Javascript
         WebSettings webSettings = mWebView.getSettings();
